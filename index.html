@@ -3,6 +3,21 @@
     <head>
         <meta charset="utf-8">
         <style>
+            #page {width:995px; margin: 0 auto;}
+            header {background-color: antiquewhite; width:995px; height:100px; margin-top:10px;}
+            nav {border-bottom:solid 4px gray; background-color: rgb(255, 246, 228); width:995px; height:70px;}
+            #title1 {float:left; margin-top: 8px; margin-left: 50px;}
+            #title2 {float:right; margin-top: 15px; margin-right: 50px;}
+            li {list-style-type: none; margin:20px 20px 10px 10px; font-weight: bold;}
+            #list {font-size: 20px;}
+            nav li {float: left;}
+            section {width:674px; height:240px; margin-top:10px; margin-right:29px; float:left;}
+            aside {width:290px; height:405px; margin-top:10px; float:left;}
+            footer {border-top:solid 4px gray; width:995px; height:130px; margin-top:10px;}
+            #univ {float: left; margin:40px 0px 0px 0px;}
+            #logo {float: left; margin: 0px 0px 0px 60px;}
+            a {text-decoration: none;}
+            .clear {clear:both}
             table, th, tr, td {
                 border: solid 1px black;
                 border-collapse: collapse;
@@ -11,7 +26,26 @@
             </style>
     </head>
     <body>
-        <h3>내 시간표-20170589 백선우</h3>
+        <div id="page">
+        <header>
+        <div id="title1">
+          <h1>내 시간표</h1>
+        </div>
+        <div id="title2">
+          <h2>20170589 백선우</h2>
+        </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="회원가입 홈페이지.html" target="_blank">[회원가입]</a></li>
+                <li><a href="rubato.html" target="_blank">[루바토 펜션 안내]</a></li>
+                <li><a href="행사안내화면.html" target="_blank">[호서 행사 안내]</a></li>
+                <li><a href="주말 야간 개장 안내화면.html" target="_blank">[주말 야간 개장 안내화면]</a></li>
+                <li><a href="월간 일정표.html" target="_blank">[월간 일정표]</a></li>
+                <li><a href="쇼핑몰 판매 목록 화면.html" target="_blank">[쇼핑몰 판매 목록]</a></li>
+            </ul>
+        </nav>
+        <section>
         <table>
             <tr>
                 <th>시간</th>
@@ -87,17 +121,26 @@
                 <td></td>
             </tr>
         </table>
-        <br>
-        <a href="회원가입 홈페이지.html" target="_blank">[회원가입]</a>
-        <br>
-        <a href="rubato.html" target="_blank">[루바토 펜션 안내]</a>
-        <br>
-        <a href="행사안내화면.html" target="_blank">[호서 행사 안내]</a>
-        <br>
-        <a href="주말 야간 개장 안내화면.html" target="_blank">[주말 야간 개장 안내화면]</a>
-        <br>
-        <a href="월간 일정표.html" target="_blank">[월간 일정표]</a>
-        <br>
-        <a href="쇼핑몰 판매 목록 화면.html" target="_blank">[쇼핑몰 판매 목록]</a>
+        </section>
+        <aside>
+            <ul>
+                <li id="list"><디지털기술경영학과></li>
+                <li><img src="file/디기경1.PNG" width="190" height="140"></li>
+                <li>디지털기술경영학과는 21세기 경제·경영활동의 핵심인 
+                    e-비즈니스 및 디지털콘텐츠 산업의 혁신을 주도하고, 
+                    창의적인 디지털비즈니스모델을 수립하여 
+                    세계적 기업으로 도약할 수 있는 전문인력 및 예비 CEO를 양성하는 학과입니다.</li>
+            </ul>
+        </aside>
+        <div class='clear'></div>
+        <footer>
+            <div id="univ">
+                <img src="file/호서대.png" width="700">
+            </div>
+            <div id="logo">
+                <img src="file/호서대학교.jpg" width="200">
+            </div>
+        </footer>
+        </div>
     </body>
 </html>
